@@ -1,0 +1,16 @@
+[0.034s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[0.335s] [ 12%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
+[0.337s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o[0m
+[0.338s] [ 50%] Built target topic_publisher
+[0.339s] [ 75%] Built target topic_subscriber
+[1.438s] [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msgfuwu/pose.hpp: 没有那个文件或目录
+[1.438s]     5 | #include [01;31m[K"turtlesim/msgfuwu/pose.hpp"[m[K
+[1.439s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.439s] compilation terminated.
+[1.444s] gmake[2]: *** [CMakeFiles/turtle_server.dir/build.make:76：CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o] 错误 1
+[1.445s] gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/turtle_server.dir/all] 错误 2
+[1.445s] gmake[1]: *** 正在等待未完成的任务....
+[8.518s] [ 87%] [32m[1mLinking CXX executable turtle_client[0m
+[9.015s] [ 87%] Built target turtle_client
+[9.017s] gmake: *** [Makefile:146：all] 错误 2
+[9.021s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8

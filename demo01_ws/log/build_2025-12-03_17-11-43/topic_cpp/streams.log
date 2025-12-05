@@ -1,0 +1,28 @@
+[0.033s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[0.173s] [ 25%] Built target topic_subscriber
+[0.179s] [ 75%] Built target turtle_server
+[0.179s] [100%] Built target turtle_client
+[0.179s] [ 75%] Built target topic_publisher
+[0.210s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[0.234s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp
+[0.255s] -- Install configuration: ""
+[0.255s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_publisher
+[0.256s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber
+[0.257s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_server
+[0.257s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client
+[0.257s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+[0.258s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+[0.258s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+[0.258s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+[0.258s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+[0.259s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+[0.259s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+[0.260s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+[0.260s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.xml
+[0.262s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp

@@ -1,0 +1,6 @@
+{
+  "package_name": "base_interfaces_demo",
+  "non_idl_tuples": [
+    "/home/cwx/demo01_ws/src/base_interfaces_demo:srv/Position.srv"
+  ]
+}

@@ -1,0 +1,115 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+-- Found base_interfaces_demo: 0.0.0 (/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cwx/demo01_ws/build/topic_cpp
+[35m[1mConsolidate compiler generated dependencies of target topic_subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_publisher[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o[0m
+[ 62%] Built target topic_subscriber
+[ 75%] Built target topic_publisher
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:15:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   15 |   auto client = node->create_client<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose>("get_turtle_pose");
+      |                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:15:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |   auto client = node->[01;31m[Kcreate_client<service_demo::srv::GetTurtlePose>[m[K("get_turtle_pose");
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:15:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_client<<expression error> >(const char [16])[m[K’
+   15 |   auto client = [01;31m[Knode->create_client<service_demo::srv::GetTurtlePose>("get_turtle_pose")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:15:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |   auto client = [01;31m[Knode->create_client<service_demo::srv::GetTurtlePose>("get_turtle_pose")[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:27:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   27 |   auto request = std::[01;31m[Kmake_shared<service_demo::srv::GetTurtlePose::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:27:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<service_demo>()[m[K’
+   27 |   auto request = [01;31m[Kstd::make_shared<service_demo::srv::GetTurtlePose::Request>()[m[K;
+      |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   22 |   const std::shared_ptr<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose::Request> /*request*/,  // 无请求参数
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |   const std::shared_ptr<service_demo::srv::GetTurtlePose::Request[01;31m[K>[m[K /*request*/,  // 无请求参数
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   22 |   const std::shared_ptr<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose::Request> /*request*/,  // 无请求参数
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |   const std::shared_ptr<service_demo::srv::GetTurtlePose::Request[01;31m[K>[m[K /*request*/,  // 无请求参数
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   22 |   const std::shared_ptr<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose::Request> /*request*/,  // 无请求参数
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:66:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |   const std::shared_ptr<service_demo::srv::GetTurtlePose::Request[01;31m[K>[m[K /*request*/,  // 无请求参数
+      |                                                                  [01;31m[K^[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:9:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   22 |   const [01;31m[Kstd[m[K::shared_ptr<service_demo::srv::GetTurtlePose::Request> /*request*/,  // 无请求参数
+      |         [01;31m[K^~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   22 |   const std::shared_ptr<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose::Request> /*request*/,  // 无请求参数
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:21:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Khandle_get_turtle_pose[m[K’ declared void
+   21 | void [01;31m[Khandle_get_turtle_pose[m[K(
+      |      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:22:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+   22 |   [01;31m[Kconst[m[K std::shared_ptr<service_demo::srv::GetTurtlePose::Request> /*request*/,  // 无请求参数
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:23:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   23 |   std::shared_ptr<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose::Response> response)
+      |                   [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:23:61:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |   std::shared_ptr<service_demo::srv::GetTurtlePose::Response[01;31m[K>[m[K response)
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kservice_demo[m[K’ was not declared in this scope
+   44 |   auto service = node->create_service<[01;31m[Kservice_demo[m[K::srv::GetTurtlePose>(
+      |                                       [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:44:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   44 |   auto service = node->[01;31m[Kcreate_service<service_demo::srv::GetTurtlePose>[m[K(
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:45:25:[m[K [01;31m[Kerror: [m[K‘[01m[Khandle_get_turtle_pose[m[K’ was not declared in this scope
+   45 |     "get_turtle_pose", &[01;31m[Khandle_get_turtle_pose[m[K);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtle_client.dir/build.make:76：CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/turtle_client.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/turtle_server.dir/build.make:76：CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/turtle_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

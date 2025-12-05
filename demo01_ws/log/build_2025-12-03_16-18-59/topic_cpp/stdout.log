@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target turtle_server[0m
+[35m[1mConsolidate compiler generated dependencies of target turtle_client[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o[0m
+[ 50%] Built target topic_publisher
+[ 75%] Built target topic_subscriber
+[ 87%] [32m[1mLinking CXX executable turtle_client[0m
+[ 87%] Built target turtle_client
+[100%] [32m[1mLinking CXX executable turtle_server[0m
+[100%] Built target turtle_server
+-- Install configuration: ""
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_publisher
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_server
+-- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_server" to ""
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client
+-- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client" to ""
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.xml

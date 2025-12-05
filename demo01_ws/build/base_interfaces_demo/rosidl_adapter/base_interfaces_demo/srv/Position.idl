@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces_demo/srv/Position.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces_demo {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求部分：无参数（仅触发查询）")
+    struct Position_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    @verbatim (language="comment", text=
+      "响应部分：小乌龟的x、y坐标")
+    struct Position_Response {
+      double x;
+
+      double y;
+    };
+  };
+};

@@ -1,0 +1,221 @@
+[0.316s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.316s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7d7520b337c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d7520b332b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d7520b332b0>>)
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.491s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cwx/demo01_ws'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.491s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.492s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.560s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.561s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.564s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[1.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[1.566s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[1.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[1.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[1.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[1.586s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[1.587s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['ignore', 'ignore_ament_install']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'ignore'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'ignore_ament_install'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['colcon_pkg']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'colcon_pkg'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['colcon_meta']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'colcon_meta'
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extensions ['ros']
+[1.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_cpp) by extension 'ros'
+[1.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_cpp' with type 'ros.ament_cmake' and name 'topic_cpp'
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.692s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 319 installed packages in /opt/ros/humble
+[1.709s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[1.790s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.791s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cwx/demo01_ws/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cwx/demo01_ws/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/cwx/demo01_ws/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_target' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[1.791s] Level 5:colcon.colcon_core.verb:set package 'topic_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.792s] DEBUG:colcon.colcon_core.verb:Building package 'topic_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cwx/demo01_ws/build/topic_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cwx/demo01_ws/install/topic_cpp', 'merge_install': False, 'path': '/home/cwx/demo01_ws/src/topic_cpp', 'symlink_install': False, 'test_result_base': None}
+[1.792s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.794s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cwx/demo01_ws/src/base_interfaces_demo' with build type 'ament_cmake'
+[1.794s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cwx/demo01_ws/src/base_interfaces_demo'
+[1.822s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.822s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.822s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.832s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cwx/demo01_ws/src/topic_cpp' with build type 'ament_cmake'
+[1.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cwx/demo01_ws/src/topic_cpp'
+[1.833s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.833s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cwx/demo01_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/base_interfaces_demo -- -j8 -l8
+[1.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[2.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cwx/demo01_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/base_interfaces_demo -- -j8 -l8
+[2.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cwx/demo01_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/base_interfaces_demo
+[3.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[3.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cwx/demo01_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/base_interfaces_demo
+[3.045s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo' for CMake module files
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo' for CMake config files
+[3.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[3.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[3.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[3.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[3.056s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/lib'
+[3.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[3.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[3.058s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[3.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[3.059s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/bin'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/lib/python3.10/site-packages'
+[3.060s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/bin'
+[3.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[3.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[3.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[3.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[3.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[3.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cwx/demo01_ws/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[3.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[3.076s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo' for CMake module files
+[3.077s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo' for CMake config files
+[3.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[3.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[3.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[3.080s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/lib'
+[3.081s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[3.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[3.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[3.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/bin'
+[3.083s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/lib/python3.10/site-packages'
+[3.084s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/base_interfaces_demo/bin'
+[3.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[3.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[3.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[3.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[3.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[3.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cwx/demo01_ws/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[27.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[27.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp
+[27.667s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_cpp)
+[27.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp
+[27.668s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp' for CMake module files
+[27.669s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp' for CMake config files
+[27.669s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_cpp', 'cmake_prefix_path')
+[27.670s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.ps1'
+[27.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.dsv'
+[27.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.sh'
+[27.672s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/lib'
+[27.672s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/bin'
+[27.672s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/lib/pkgconfig/topic_cpp.pc'
+[27.672s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/lib/python3.10/site-packages'
+[27.672s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/bin'
+[27.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.ps1'
+[27.673s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv'
+[27.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.sh'
+[27.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.bash'
+[27.675s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.zsh'
+[27.675s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cwx/demo01_ws/install/topic_cpp/share/colcon-core/packages/topic_cpp)
+[27.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(topic_cpp)
+[27.680s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp' for CMake module files
+[27.682s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp' for CMake config files
+[27.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('topic_cpp', 'cmake_prefix_path')
+[27.683s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.ps1'
+[27.685s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.dsv'
+[27.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/hook/cmake_prefix_path.sh'
+[27.688s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/lib'
+[27.688s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/bin'
+[27.688s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/lib/pkgconfig/topic_cpp.pc'
+[27.689s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/lib/python3.10/site-packages'
+[27.689s] Level 1:colcon.colcon_core.environment:checking '/home/cwx/demo01_ws/install/topic_cpp/bin'
+[27.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.ps1'
+[27.691s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv'
+[27.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.sh'
+[27.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.bash'
+[27.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.zsh'
+[27.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cwx/demo01_ws/install/topic_cpp/share/colcon-core/packages/topic_cpp)
+[27.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.696s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.698s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.698s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[27.720s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[27.720s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[27.720s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[27.747s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[27.748s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cwx/demo01_ws/install/local_setup.ps1'
+[27.752s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cwx/demo01_ws/install/_local_setup_util_ps1.py'
+[27.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cwx/demo01_ws/install/setup.ps1'
+[27.756s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cwx/demo01_ws/install/local_setup.sh'
+[27.758s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cwx/demo01_ws/install/_local_setup_util_sh.py'
+[27.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cwx/demo01_ws/install/setup.sh'
+[27.761s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cwx/demo01_ws/install/local_setup.bash'
+[27.763s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cwx/demo01_ws/install/setup.bash'
+[27.765s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cwx/demo01_ws/install/local_setup.zsh'
+[27.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cwx/demo01_ws/install/setup.zsh'

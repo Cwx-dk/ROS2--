@@ -1,0 +1,73 @@
+[0.027s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cwx/demo01_ws/src/topic_cpp -DCMAKE_INSTALL_PREFIX=/home/cwx/demo01_ws/install/topic_cpp
+[0.191s] -- The C compiler identification is GNU 11.4.0
+[0.316s] -- The CXX compiler identification is GNU 11.4.0
+[0.347s] -- Detecting C compiler ABI info
+[0.574s] -- Detecting C compiler ABI info - done
+[0.593s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.593s] -- Detecting C compile features
+[0.593s] -- Detecting C compile features - done
+[0.601s] -- Detecting CXX compiler ABI info
+[0.817s] -- Detecting CXX compiler ABI info - done
+[0.837s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.838s] -- Detecting CXX compile features
+[0.840s] -- Detecting CXX compile features - done
+[0.849s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.204s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.401s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.486s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.497s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.516s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.588s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.683s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.687s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.926s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.974s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.047s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.063s] -- Looking for pthread.h
+[2.243s] -- Looking for pthread.h - found
+[2.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.429s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.431s] -- Found Threads: TRUE  
+[2.521s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.668s] -- Configured cppcheck include dirs: 
+[2.668s] -- Configured cppcheck exclude dirs and/or files: 
+[2.670s] -- Added test 'lint_cmake' to check CMake code style
+[2.673s] -- Added test 'uncrustify' to check C / C++ code style
+[2.674s] -- Configured uncrustify additional arguments: 
+[2.674s] -- Added test 'xmllint' to check XML markup files
+[2.678s] -- Configuring done
+[2.705s] -- Generating done
+[2.712s] -- Build files have been written to: /home/cwx/demo01_ws/build/topic_cpp
+[2.732s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/cwx/demo01_ws/src/topic_cpp -DCMAKE_INSTALL_PREFIX=/home/cwx/demo01_ws/install/topic_cpp
+[2.733s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[2.866s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_subscriber.dir/src/topic_subscriber.cpp.o[0m
+[2.866s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_publisher.dir/src/topic_publisher.cpp.o[0m
+[11.467s] [ 75%] [32m[1mLinking CXX executable topic_publisher[0m
+[11.865s] [ 75%] Built target topic_publisher
+[18.773s] [100%] [32m[1mLinking CXX executable topic_subscriber[0m
+[19.697s] [100%] Built target topic_subscriber
+[19.733s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[19.757s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp
+[19.780s] -- Install configuration: ""
+[19.780s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_publisher
+[19.784s] -- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_publisher" to ""
+[19.785s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber
+[19.799s] -- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber" to ""
+[19.799s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+[19.799s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+[19.801s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+[19.801s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+[19.802s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+[19.802s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+[19.803s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+[19.803s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+[19.804s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+[19.804s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+[19.805s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv
+[19.805s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+[19.805s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+[19.806s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+[19.806s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.xml
+[19.811s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp

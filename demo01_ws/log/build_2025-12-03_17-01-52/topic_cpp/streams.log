@@ -1,0 +1,54 @@
+[0.028s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[0.156s] [ 25%] Built target topic_subscriber
+[0.159s] [ 50%] Built target turtle_server
+[0.160s] [ 75%] Built target topic_publisher
+[0.168s] [ 87%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
+[8.251s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[8.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[8.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[8.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[8.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[8.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[8.251s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[8.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[8.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[8.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[8.252s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[8.252s]                  from [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:1[m[K:
+[8.252s] [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.252s] [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:52:30:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Krclcpp::FutureReturnCode[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[8.253s]    52 |         RCLCPP_ERROR(logger, [01;35m[K"请求失败，错误码：%d"[m[K, [32m[Kfuture_status[m[K);
+[8.253s]       |                              [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~[m[K
+[8.253s]       |                                                      [32m[K|[m[K
+[8.253s]       |                                                      [32m[Krclcpp::FutureReturnCode[m[K
+[8.253s] [01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_client.cpp:52:50:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.253s]    52 |         RCLCPP_ERROR(logger, "请求失败，错误码：[01;36m[K%d[m[K", future_status);
+[8.253s]       |                                                 [01;36m[K~^[m[K
+[8.253s]       |                                                  [01;36m[K|[m[K
+[8.254s]       |                                                  [01;36m[Kint[m[K
+[11.351s] [100%] [32m[1mLinking CXX executable turtle_client[0m
+[11.687s] [100%] Built target turtle_client
+[11.712s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[11.717s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp
+[11.733s] -- Install configuration: ""
+[11.733s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_publisher
+[11.734s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber
+[11.735s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_server
+[11.735s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client
+[11.737s] -- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client" to ""
+[11.738s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+[11.738s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+[11.738s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+[11.738s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+[11.739s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+[11.739s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+[11.739s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+[11.739s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+[11.740s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+[11.740s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+[11.740s] -- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv
+[11.740s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+[11.740s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+[11.740s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+[11.740s] -- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.xml
+[11.742s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/topic_cpp

@@ -1,0 +1,6 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o[0m
+[ 50%] Built target topic_publisher
+[ 75%] Built target topic_subscriber
+[ 87%] [32m[1mLinking CXX executable turtle_client[0m
+[ 87%] Built target turtle_client

@@ -1,0 +1,14 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o[0m
+[ 50%] Built target topic_publisher
+[ 75%] Built target topic_subscriber
+[01m[K/home/cwx/demo01_ws/src/topic_cpp/src/turtle_server.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msgfuwu/pose.hpp: 没有那个文件或目录
+    5 | #include [01;31m[K"turtlesim/msgfuwu/pose.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/turtle_server.dir/build.make:76：CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/turtle_server.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 87%] [32m[1mLinking CXX executable turtle_client[0m
+[ 87%] Built target turtle_client
+gmake: *** [Makefile:146：all] 错误 2

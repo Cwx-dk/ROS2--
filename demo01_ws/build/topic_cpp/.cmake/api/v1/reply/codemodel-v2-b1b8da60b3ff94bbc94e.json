@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-edadf88ffe9605afd64b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "topic_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_cpp_uninstall-b45c34f2b87db808f5b6.json",
+					"name" : "topic_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_publisher-a0c0e2f0b983cfca57be.json",
+					"name" : "topic_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_subscriber-3a51abbbbf4c62e9ee5d.json",
+					"name" : "topic_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_client-bbf2e7eb127a6f3f6127.json",
+					"name" : "turtle_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_server-f3d7c423935eeb18477e.json",
+					"name" : "turtle_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e2370b0b428ca66431b2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cwx/demo01_ws/build/topic_cpp",
+		"source" : "/home/cwx/demo01_ws/src/topic_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

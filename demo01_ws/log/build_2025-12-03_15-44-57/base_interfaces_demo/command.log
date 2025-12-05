@@ -1,0 +1,6 @@
+Invoking command in '/home/cwx/demo01_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cwx/demo01_ws/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/cwx/demo01_ws/install/base_interfaces_demo
+Invoked command in '/home/cwx/demo01_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/cwx/demo01_ws/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/cwx/demo01_ws/install/base_interfaces_demo
+Invoking command in '/home/cwx/demo01_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/base_interfaces_demo -- -j8 -l8
+Invoked command in '/home/cwx/demo01_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/base_interfaces_demo -- -j8 -l8
+Invoking command in '/home/cwx/demo01_ws/build/base_interfaces_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/base_interfaces_demo
+Invoked command in '/home/cwx/demo01_ws/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/cwx/demo01_ws/build/base_interfaces_demo

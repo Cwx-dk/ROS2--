@@ -1,0 +1,24 @@
+[0.026s] Invoking command in '/home/cwx/demo01_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
+[0.075s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.317s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.363s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.366s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.375s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.687s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.743s] -- Found base_interfaces_demo: 0.0.0 (/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.760s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_get_typesupport_target.cmake:29 (message):
+[0.760s]   base_interfaces_demo is not a CMake target.  Maybe
+[0.760s]   rosidl_generate_interfaces was given a different target name?
+[0.760s] Call Stack (most recent call first):
+[0.761s]   CMakeLists.txt:45 (rosidl_get_typesupport_target)
+[0.761s] 
+[0.761s] [0m
+[0.761s] -- Configuring incomplete, errors occurred!
+[0.761s] See also "/home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/CMakeOutput.log".
+[0.778s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[0.782s] Invoked command in '/home/cwx/demo01_ws/build/topic_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/cwx/demo01_ws/build/topic_cpp -- -j8 -l8
