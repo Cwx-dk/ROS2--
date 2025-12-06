@@ -22,10 +22,17 @@ source ./install/setup.bash
 
 #启动命令
 
+colcon build
+
+source ./devel/setup.bash
+
 ros2 run 功能包名 节点文件名
 
 #说明
 topic_publisher、topic_subscriber 为话题通信示例
+
 turtle_server、turtle_client 为服务通信的订阅乌龟坐标示例
+
 turtle_chase为龟追龟代码
+
 以上均为C++代码
