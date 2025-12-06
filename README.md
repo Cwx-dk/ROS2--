@@ -10,7 +10,6 @@ ros2 pkg create topic_cpp --build-type ament_cmake --dependencies rclcpp
 colcon build
 source ./install/setup.bash
 
-———————————————————————————————————————
 #启动命令
 ros2 run 功能包名 节点文件名
 
