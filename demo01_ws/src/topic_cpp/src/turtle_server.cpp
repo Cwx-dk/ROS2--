@@ -1,5 +1,4 @@
 #include "rclcpp/rclcpp.hpp"
-// 修正：引用正确的接口头文件（包名+接口名）
 #include "base_interfaces_demo/srv/position.hpp"
 // 小乌龟位姿消息头文件
 #include "turtlesim/msg/pose.hpp"
@@ -49,5 +48,3 @@ int main(int argc, char * argv[])
   rclcpp::shutdown();
   return 0;
 }
-
-

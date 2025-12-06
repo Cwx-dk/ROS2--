@@ -249,6 +249,19 @@ turtle_client/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_client.dir/build.make CMakeFiles/turtle_client.dir/build
 .PHONY : turtle_client/fast
 
+#=============================================================================
+# Target rules for targets named turtle_chase
+
+# Build rule for target.
+turtle_chase: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtle_chase
+.PHONY : turtle_chase
+
+# fast build rule for target.
+turtle_chase/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_chase.dir/build.make CMakeFiles/turtle_chase.dir/build
+.PHONY : turtle_chase/fast
+
 src/topic_publisher.o: src/topic_publisher.cpp.o
 .PHONY : src/topic_publisher.o
 
@@ -296,6 +309,30 @@ src/topic_subscriber.s: src/topic_subscriber.cpp.s
 src/topic_subscriber.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_subscriber.dir/build.make CMakeFiles/topic_subscriber.dir/src/topic_subscriber.cpp.s
 .PHONY : src/topic_subscriber.cpp.s
+
+src/turtle_chase.o: src/turtle_chase.cpp.o
+.PHONY : src/turtle_chase.o
+
+# target to build an object file
+src/turtle_chase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_chase.dir/build.make CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o
+.PHONY : src/turtle_chase.cpp.o
+
+src/turtle_chase.i: src/turtle_chase.cpp.i
+.PHONY : src/turtle_chase.i
+
+# target to preprocess a source file
+src/turtle_chase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_chase.dir/build.make CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.i
+.PHONY : src/turtle_chase.cpp.i
+
+src/turtle_chase.s: src/turtle_chase.cpp.s
+.PHONY : src/turtle_chase.s
+
+# target to generate assembly for a file
+src/turtle_chase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_chase.dir/build.make CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.s
+.PHONY : src/turtle_chase.cpp.s
 
 src/turtle_client.o: src/turtle_client.cpp.o
 .PHONY : src/turtle_client.o
@@ -362,6 +399,7 @@ help:
 	@echo "... uninstall"
 	@echo "... topic_publisher"
 	@echo "... topic_subscriber"
+	@echo "... turtle_chase"
 	@echo "... turtle_client"
 	@echo "... turtle_server"
 	@echo "... src/topic_publisher.o"
@@ -370,6 +408,9 @@ help:
 	@echo "... src/topic_subscriber.o"
 	@echo "... src/topic_subscriber.i"
 	@echo "... src/topic_subscriber.s"
+	@echo "... src/turtle_chase.o"
+	@echo "... src/turtle_chase.i"
+	@echo "... src/turtle_chase.s"
 	@echo "... src/turtle_client.o"
 	@echo "... src/turtle_client.i"
 	@echo "... src/turtle_client.s"

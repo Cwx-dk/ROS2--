@@ -1,0 +1,115 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4623275278f0d42671d8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "topic_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_cpp_uninstall-b45c34f2b87db808f5b6.json",
+					"name" : "topic_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_publisher-879c76f872c28e0b4cb3.json",
+					"name" : "topic_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_subscriber-3b5d621b13e0b278dfd0.json",
+					"name" : "topic_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_chase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_chase-01195550949871891c65.json",
+					"name" : "turtle_chase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_client-c66d938ec89861e8956c.json",
+					"name" : "turtle_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_server-d16c6c68ed572e08719c.json",
+					"name" : "turtle_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e2370b0b428ca66431b2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/cwx/demo01_ws/build/topic_cpp",
+		"source" : "/home/cwx/demo01_ws/src/topic_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

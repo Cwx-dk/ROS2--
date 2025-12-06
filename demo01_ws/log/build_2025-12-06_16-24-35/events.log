@@ -1,0 +1,491 @@
+[0.000000] (-) TimerEvent: {}
+[0.001745] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.001949] (topic_cpp) JobQueued: {'identifier': 'topic_cpp', 'dependencies': OrderedDict()}
+[0.001992] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.010471] (topic_cpp) JobStarted: {'identifier': 'topic_cpp'}
+[0.019920] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.023243] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.025605] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cwx/demo01_ws/build/base_interfaces_demo', '--', '-j8', '-l8'], 'cwd': '/home/cwx/demo01_ws/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cwx'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cwx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cwx'), ('TERM_PROGRAM_VERSION', '1.99.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1673'), ('SYSTEMD_EXEC_PID', '2020'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3117'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cwx'), ('JOURNAL_STREAM', '8:22433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cwx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cwx-virtual-machine:@/tmp/.ICE-unix/1808,unix/cwx-virtual-machine:/tmp/.ICE-unix/1808'), ('INVOCATION_ID', '265c870f30bf418fb1f185b0d0228c78'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7I6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f1cc7ae286.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:65bd7c87-26de-4736-a3e5-bfd7e1e84ff6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cwx/demo01_ws/build/base_interfaces_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.033100] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'cmake'}
+[0.034064] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'build'}
+[0.035925] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/cwx/demo01_ws/build/topic_cpp', '--', '-j8', '-l8'], 'cwd': '/home/cwx/demo01_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cwx'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cwx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cwx'), ('TERM_PROGRAM_VERSION', '1.99.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1673'), ('SYSTEMD_EXEC_PID', '2020'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3117'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cwx'), ('JOURNAL_STREAM', '8:22433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cwx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cwx-virtual-machine:@/tmp/.ICE-unix/1808,unix/cwx-virtual-machine:/tmp/.ICE-unix/1808'), ('INVOCATION_ID', '265c870f30bf418fb1f185b0d0228c78'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7I6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f1cc7ae286.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:65bd7c87-26de-4736-a3e5-bfd7e1e84ff6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cwx/demo01_ws/build/topic_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.093298] (topic_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099923] (-) TimerEvent: {}
+[0.147006] (base_interfaces_demo) StdoutLine: {'line': b'[  3%] Built target base_interfaces_demo__cpp\n'}
+[0.147882] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[0.171737] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_base_interfaces_demo\n'}
+[0.204020] (-) TimerEvent: {}
+[0.218368] (base_interfaces_demo) StdoutLine: {'line': b'[ 22%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[0.223656] (base_interfaces_demo) StdoutLine: {'line': b'[ 32%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[0.249591] (base_interfaces_demo) StdoutLine: {'line': b'[ 45%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[0.249856] (base_interfaces_demo) StdoutLine: {'line': b'[ 51%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[0.252095] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[0.273387] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[0.304152] (-) TimerEvent: {}
+[0.334149] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo\n'}
+[0.386959] (topic_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.398919] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__py\n'}
+[0.404917] (-) TimerEvent: {}
+[0.439523] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.441842] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.452987] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.462262] (base_interfaces_demo) StdoutLine: {'line': b'[ 80%] Built target base_interfaces_demo__rosidl_generator_py\n'}
+[0.469344] (topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.490773] (topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.505124] (-) TimerEvent: {}
+[0.527408] (base_interfaces_demo) StdoutLine: {'line': b'[ 87%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[0.527889] (base_interfaces_demo) StdoutLine: {'line': b'[ 93%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[0.531574] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.546183] (topic_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.546479] (topic_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.605301] (-) TimerEvent: {}
+[0.669068] (base_interfaces_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.670527] (base_interfaces_demo) StdoutLine: {'line': b'writing base_interfaces_demo.egg-info/PKG-INFO\n'}
+[0.671467] (base_interfaces_demo) StdoutLine: {'line': b'writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt\n'}
+[0.671838] (base_interfaces_demo) StdoutLine: {'line': b'writing top-level names to base_interfaces_demo.egg-info/top_level.txt\n'}
+[0.676526] (base_interfaces_demo) StdoutLine: {'line': b"reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[0.676766] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[0.705467] (-) TimerEvent: {}
+[0.710186] (topic_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.734382] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_base_interfaces_demo_egg\n'}
+[0.759256] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.761576] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[0.781390] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cwx/demo01_ws/build/base_interfaces_demo'], 'cwd': '/home/cwx/demo01_ws/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cwx'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cwx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cwx'), ('TERM_PROGRAM_VERSION', '1.99.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1673'), ('SYSTEMD_EXEC_PID', '2020'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3117'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cwx'), ('JOURNAL_STREAM', '8:22433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cwx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cwx-virtual-machine:@/tmp/.ICE-unix/1808,unix/cwx-virtual-machine:/tmp/.ICE-unix/1808'), ('INVOCATION_ID', '265c870f30bf418fb1f185b0d0228c78'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7I6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f1cc7ae286.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:65bd7c87-26de-4736-a3e5-bfd7e1e84ff6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cwx/demo01_ws/build/base_interfaces_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.787887] (topic_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.797704] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.798432] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[0.798572] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.798682] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[0.798786] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/position.h\n'}
+[0.799035] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[0.799210] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__functions.c\n'}
+[0.799553] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__functions.h\n'}
+[0.799671] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__type_support.h\n'}
+[0.799776] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__struct.h\n'}
+[0.799876] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.800009] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.800222] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[0.800334] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[0.800430] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[0.800834] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.801057] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[0.801230] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[0.801395] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__rosidl_typesupport_fastrtps_c.h\n'}
+[0.801492] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.801584] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.801955] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[0.802357] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.802486] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[0.802584] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[0.802675] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__struct.hpp\n'}
+[0.802776] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__type_support.hpp\n'}
+[0.802867] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__traits.hpp\n'}
+[0.803079] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__builder.hpp\n'}
+[0.803196] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/position.hpp\n'}
+[0.803294] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.803394] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.803616] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.803837] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[0.804054] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[0.804161] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.804587] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps\n'}
+[0.804801] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.805288] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.805578] (-) TimerEvent: {}
+[0.805840] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.806094] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.806208] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[0.806307] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[0.806402] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__rosidl_typesupport_introspection_c.h\n'}
+[0.806677] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__type_support.c\n'}
+[0.807238] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.807362] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.807465] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[0.807555] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[0.807642] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.807729] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv\n'}
+[0.807817] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail\n'}
+[0.807960] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__type_support.cpp\n'}
+[0.808068] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.808161] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[0.808248] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[0.808334] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[0.808419] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[0.808503] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info\n'}
+[0.808589] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.808675] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.808760] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.808892] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.809041] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo\n'}
+[0.809132] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.809219] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv\n'}
+[0.809304] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_position.py\n'}
+[0.809402] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_position_s.c\n'}
+[0.809493] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py\n'}
+[0.809579] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[0.809668] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.809863] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.810038] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.810136] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py\n'}
+[0.810224] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c\n'}
+[0.810325] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.849788] (topic_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.868129] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...\n"}
+[0.868617] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...\n"}
+[0.875194] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.876705] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.877077] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.877930] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[0.878121] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Position.idl\n'}
+[0.878314] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Position.srv\n'}
+[0.878620] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Position_Request.msg\n'}
+[0.878750] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/srv/Position_Response.msg\n'}
+[0.879264] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[0.879407] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[0.879528] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[0.879647] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[0.879761] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[0.879872] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[0.880158] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[0.880288] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[0.880401] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[0.880514] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[0.880632] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[0.880752] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[0.881028] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[0.881184] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.881287] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.881377] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.881469] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[0.881564] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.881661] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.881757] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.882340] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.882459] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[0.882577] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.882678] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.882782] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.883035] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[0.883145] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.883235] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake\n'}
+[0.883324] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.883412] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[0.883499] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.883588] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.883723] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.884322] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.884698] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.885226] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.885558] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[0.885951] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[0.886167] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[0.888691] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.890689] (topic_cpp) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/cwx/demo01_ws/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[0.906588] (-) TimerEvent: {}
+[0.921666] (topic_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.927631] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[1.006782] (-) TimerEvent: {}
+[1.081025] (topic_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.081403] (topic_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.081527] (topic_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.084010] (topic_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.086471] (topic_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.086700] (topic_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.087731] (topic_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.091729] (topic_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.106948] (-) TimerEvent: {}
+[1.166562] (topic_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[1.182438] (topic_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/cwx/demo01_ws/build/topic_cpp\n'}
+[1.207163] (-) TimerEvent: {}
+[1.254084] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_server\x1b[0m\n'}
+[1.254347] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_publisher\x1b[0m\n'}
+[1.262123] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topic_subscriber\x1b[0m\n'}
+[1.271789] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtle_client\x1b[0m\n'}
+[1.281636] (topic_cpp) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/turtle_chase.dir/src/turtle_chase.cpp.o\x1b[0m\n'}
+[1.307327] (-) TimerEvent: {}
+[1.352660] (topic_cpp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtle_client.dir/src/turtle_client.cpp.o\x1b[0m\n'}
+[1.353034] (topic_cpp) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtle_server.dir/src/turtle_server.cpp.o\x1b[0m\n'}
+[1.355799] (topic_cpp) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/topic_subscriber.dir/src/topic_subscriber.cpp.o\x1b[0m\n'}
+[1.362410] (topic_cpp) StdoutLine: {'line': b'[ 60%] Built target topic_publisher\n'}
+[1.407511] (-) TimerEvent: {}
+[1.507907] (-) TimerEvent: {}
+[1.608622] (-) TimerEvent: {}
+[1.709095] (-) TimerEvent: {}
+[1.809555] (-) TimerEvent: {}
+[1.910593] (-) TimerEvent: {}
+[2.011068] (-) TimerEvent: {}
+[2.111605] (-) TimerEvent: {}
+[2.212100] (-) TimerEvent: {}
+[2.312634] (-) TimerEvent: {}
+[2.414111] (-) TimerEvent: {}
+[2.515400] (-) TimerEvent: {}
+[2.616059] (-) TimerEvent: {}
+[2.717099] (-) TimerEvent: {}
+[2.817999] (-) TimerEvent: {}
+[2.920998] (-) TimerEvent: {}
+[3.022268] (-) TimerEvent: {}
+[3.122837] (-) TimerEvent: {}
+[3.223382] (-) TimerEvent: {}
+[3.324745] (-) TimerEvent: {}
+[3.428082] (-) TimerEvent: {}
+[3.530004] (-) TimerEvent: {}
+[3.631646] (-) TimerEvent: {}
+[3.732598] (-) TimerEvent: {}
+[3.837042] (-) TimerEvent: {}
+[3.938007] (-) TimerEvent: {}
+[4.039520] (-) TimerEvent: {}
+[4.140958] (-) TimerEvent: {}
+[4.241548] (-) TimerEvent: {}
+[4.342559] (-) TimerEvent: {}
+[4.443880] (-) TimerEvent: {}
+[4.545977] (-) TimerEvent: {}
+[4.647128] (-) TimerEvent: {}
+[4.747959] (-) TimerEvent: {}
+[4.848728] (-) TimerEvent: {}
+[4.950210] (-) TimerEvent: {}
+[5.051062] (-) TimerEvent: {}
+[5.151861] (-) TimerEvent: {}
+[5.253059] (-) TimerEvent: {}
+[5.353649] (-) TimerEvent: {}
+[5.454512] (-) TimerEvent: {}
+[5.555462] (-) TimerEvent: {}
+[5.656482] (-) TimerEvent: {}
+[5.757280] (-) TimerEvent: {}
+[5.857720] (-) TimerEvent: {}
+[5.958309] (-) TimerEvent: {}
+[6.058753] (-) TimerEvent: {}
+[6.159315] (-) TimerEvent: {}
+[6.260902] (-) TimerEvent: {}
+[6.362200] (-) TimerEvent: {}
+[6.463121] (-) TimerEvent: {}
+[6.563635] (-) TimerEvent: {}
+[6.664511] (-) TimerEvent: {}
+[6.766037] (-) TimerEvent: {}
+[6.867011] (-) TimerEvent: {}
+[6.967549] (-) TimerEvent: {}
+[7.068223] (-) TimerEvent: {}
+[7.168716] (-) TimerEvent: {}
+[7.271979] (-) TimerEvent: {}
+[7.374397] (-) TimerEvent: {}
+[7.476751] (-) TimerEvent: {}
+[7.578108] (-) TimerEvent: {}
+[7.679589] (-) TimerEvent: {}
+[7.781012] (-) TimerEvent: {}
+[7.882608] (-) TimerEvent: {}
+[7.984565] (-) TimerEvent: {}
+[8.085916] (-) TimerEvent: {}
+[8.187408] (-) TimerEvent: {}
+[8.288815] (-) TimerEvent: {}
+[8.390364] (-) TimerEvent: {}
+[8.491607] (-) TimerEvent: {}
+[8.592929] (-) TimerEvent: {}
+[8.694522] (-) TimerEvent: {}
+[8.796056] (-) TimerEvent: {}
+[8.897437] (-) TimerEvent: {}
+[8.998723] (-) TimerEvent: {}
+[9.100177] (-) TimerEvent: {}
+[9.201632] (-) TimerEvent: {}
+[9.302861] (-) TimerEvent: {}
+[9.404403] (-) TimerEvent: {}
+[9.506034] (-) TimerEvent: {}
+[9.611016] (-) TimerEvent: {}
+[9.711719] (-) TimerEvent: {}
+[9.816906] (-) TimerEvent: {}
+[9.918446] (-) TimerEvent: {}
+[10.018986] (-) TimerEvent: {}
+[10.122102] (-) TimerEvent: {}
+[10.223420] (-) TimerEvent: {}
+[10.324421] (-) TimerEvent: {}
+[10.424890] (-) TimerEvent: {}
+[10.525426] (-) TimerEvent: {}
+[10.626707] (-) TimerEvent: {}
+[10.728238] (-) TimerEvent: {}
+[10.828787] (-) TimerEvent: {}
+[10.930060] (-) TimerEvent: {}
+[11.030542] (-) TimerEvent: {}
+[11.131089] (-) TimerEvent: {}
+[11.232094] (-) TimerEvent: {}
+[11.332585] (-) TimerEvent: {}
+[11.433019] (-) TimerEvent: {}
+[11.535049] (-) TimerEvent: {}
+[11.635530] (-) TimerEvent: {}
+[11.736675] (-) TimerEvent: {}
+[11.837374] (-) TimerEvent: {}
+[11.938111] (-) TimerEvent: {}
+[12.038901] (-) TimerEvent: {}
+[12.140392] (-) TimerEvent: {}
+[12.241546] (-) TimerEvent: {}
+[12.342726] (-) TimerEvent: {}
+[12.444093] (-) TimerEvent: {}
+[12.545482] (-) TimerEvent: {}
+[12.646626] (-) TimerEvent: {}
+[12.747281] (-) TimerEvent: {}
+[12.847967] (-) TimerEvent: {}
+[12.948636] (-) TimerEvent: {}
+[13.049234] (-) TimerEvent: {}
+[13.150025] (-) TimerEvent: {}
+[13.250597] (-) TimerEvent: {}
+[13.351280] (-) TimerEvent: {}
+[13.451886] (-) TimerEvent: {}
+[13.552522] (-) TimerEvent: {}
+[13.653182] (-) TimerEvent: {}
+[13.754078] (-) TimerEvent: {}
+[13.855306] (-) TimerEvent: {}
+[13.956011] (-) TimerEvent: {}
+[14.056646] (-) TimerEvent: {}
+[14.157248] (-) TimerEvent: {}
+[14.161331] (topic_cpp) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable turtle_client\x1b[0m\n'}
+[14.257474] (-) TimerEvent: {}
+[14.358015] (-) TimerEvent: {}
+[14.458739] (-) TimerEvent: {}
+[14.559591] (-) TimerEvent: {}
+[14.660425] (-) TimerEvent: {}
+[14.761524] (topic_cpp) StdoutLine: {'line': b'[ 70%] Built target turtle_client\n'}
+[14.761844] (-) TimerEvent: {}
+[14.862837] (-) TimerEvent: {}
+[14.964057] (-) TimerEvent: {}
+[15.064604] (-) TimerEvent: {}
+[15.165294] (-) TimerEvent: {}
+[15.265861] (-) TimerEvent: {}
+[15.366574] (-) TimerEvent: {}
+[15.469006] (-) TimerEvent: {}
+[15.570012] (-) TimerEvent: {}
+[15.671041] (-) TimerEvent: {}
+[15.771815] (-) TimerEvent: {}
+[15.872517] (-) TimerEvent: {}
+[15.973099] (-) TimerEvent: {}
+[16.073754] (-) TimerEvent: {}
+[16.174625] (-) TimerEvent: {}
+[16.275321] (-) TimerEvent: {}
+[16.376501] (-) TimerEvent: {}
+[16.478052] (-) TimerEvent: {}
+[16.579547] (-) TimerEvent: {}
+[16.680794] (-) TimerEvent: {}
+[16.782084] (-) TimerEvent: {}
+[16.883031] (-) TimerEvent: {}
+[16.983826] (-) TimerEvent: {}
+[17.084556] (-) TimerEvent: {}
+[17.185673] (-) TimerEvent: {}
+[17.287480] (-) TimerEvent: {}
+[17.389377] (-) TimerEvent: {}
+[17.490054] (-) TimerEvent: {}
+[17.591390] (-) TimerEvent: {}
+[17.692602] (-) TimerEvent: {}
+[17.793462] (-) TimerEvent: {}
+[17.894466] (-) TimerEvent: {}
+[17.995493] (-) TimerEvent: {}
+[18.096790] (-) TimerEvent: {}
+[18.198042] (-) TimerEvent: {}
+[18.299419] (-) TimerEvent: {}
+[18.400010] (-) TimerEvent: {}
+[18.500697] (-) TimerEvent: {}
+[18.601376] (-) TimerEvent: {}
+[18.702114] (-) TimerEvent: {}
+[18.802962] (-) TimerEvent: {}
+[18.904043] (-) TimerEvent: {}
+[19.004947] (-) TimerEvent: {}
+[19.105684] (-) TimerEvent: {}
+[19.207106] (-) TimerEvent: {}
+[19.308334] (-) TimerEvent: {}
+[19.409296] (-) TimerEvent: {}
+[19.510001] (-) TimerEvent: {}
+[19.610684] (-) TimerEvent: {}
+[19.711482] (-) TimerEvent: {}
+[19.812091] (-) TimerEvent: {}
+[19.912835] (-) TimerEvent: {}
+[20.013531] (-) TimerEvent: {}
+[20.114397] (-) TimerEvent: {}
+[20.215477] (-) TimerEvent: {}
+[20.315928] (-) TimerEvent: {}
+[20.416756] (-) TimerEvent: {}
+[20.517415] (-) TimerEvent: {}
+[20.618544] (-) TimerEvent: {}
+[20.719261] (-) TimerEvent: {}
+[20.819913] (-) TimerEvent: {}
+[20.920522] (-) TimerEvent: {}
+[21.021116] (-) TimerEvent: {}
+[21.121649] (-) TimerEvent: {}
+[21.222663] (-) TimerEvent: {}
+[21.323190] (-) TimerEvent: {}
+[21.423792] (-) TimerEvent: {}
+[21.524441] (-) TimerEvent: {}
+[21.624964] (-) TimerEvent: {}
+[21.725648] (-) TimerEvent: {}
+[21.826341] (-) TimerEvent: {}
+[21.926872] (-) TimerEvent: {}
+[22.027577] (-) TimerEvent: {}
+[22.128445] (-) TimerEvent: {}
+[22.228981] (-) TimerEvent: {}
+[22.329590] (-) TimerEvent: {}
+[22.430377] (-) TimerEvent: {}
+[22.531023] (-) TimerEvent: {}
+[22.631639] (-) TimerEvent: {}
+[22.732321] (-) TimerEvent: {}
+[22.833086] (-) TimerEvent: {}
+[22.933878] (-) TimerEvent: {}
+[23.034948] (-) TimerEvent: {}
+[23.135525] (-) TimerEvent: {}
+[23.236094] (-) TimerEvent: {}
+[23.337173] (-) TimerEvent: {}
+[23.437710] (-) TimerEvent: {}
+[23.538248] (-) TimerEvent: {}
+[23.639144] (-) TimerEvent: {}
+[23.740399] (-) TimerEvent: {}
+[23.841373] (-) TimerEvent: {}
+[23.942525] (-) TimerEvent: {}
+[24.043635] (-) TimerEvent: {}
+[24.144295] (-) TimerEvent: {}
+[24.244881] (-) TimerEvent: {}
+[24.346062] (-) TimerEvent: {}
+[24.367683] (topic_cpp) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable topic_subscriber\x1b[0m\n'}
+[24.446245] (-) TimerEvent: {}
+[24.547122] (-) TimerEvent: {}
+[24.550157] (topic_cpp) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable turtle_chase\x1b[0m\n'}
+[24.647465] (-) TimerEvent: {}
+[24.748057] (-) TimerEvent: {}
+[24.848978] (-) TimerEvent: {}
+[24.949876] (-) TimerEvent: {}
+[25.043946] (topic_cpp) StdoutLine: {'line': b'[ 90%] Built target topic_subscriber\n'}
+[25.050036] (-) TimerEvent: {}
+[25.150471] (-) TimerEvent: {}
+[25.251107] (-) TimerEvent: {}
+[25.264103] (topic_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_server\x1b[0m\n'}
+[25.345712] (topic_cpp) StdoutLine: {'line': b'[100%] Built target turtle_chase\n'}
+[25.351448] (-) TimerEvent: {}
+[25.452023] (-) TimerEvent: {}
+[25.552774] (-) TimerEvent: {}
+[25.655191] (-) TimerEvent: {}
+[25.756541] (-) TimerEvent: {}
+[25.857346] (-) TimerEvent: {}
+[25.958008] (-) TimerEvent: {}
+[25.979574] (topic_cpp) StdoutLine: {'line': b'[100%] Built target turtle_server\n'}
+[26.004277] (topic_cpp) CommandEnded: {'returncode': 0}
+[26.007776] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'install'}
+[26.008222] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/cwx/demo01_ws/build/topic_cpp'], 'cwd': '/home/cwx/demo01_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'cwx'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/cwx'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/cwx'), ('TERM_PROGRAM_VERSION', '1.99.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1673'), ('SYSTEMD_EXEC_PID', '2020'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3117'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'cwx'), ('JOURNAL_STREAM', '8:22433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'cwx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/cwx-virtual-machine:@/tmp/.ICE-unix/1808,unix/cwx-virtual-machine:/tmp/.ICE-unix/1808'), ('INVOCATION_ID', '265c870f30bf418fb1f185b0d0228c78'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G7I6G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-f1cc7ae286.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:65bd7c87-26de-4736-a3e5-bfd7e1e84ff6'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/cwx/demo01_ws/build/topic_cpp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[26.023632] (topic_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.029074] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_publisher\n'}
+[26.031514] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber\n'}
+[26.037775] (topic_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/topic_subscriber" to ""\n'}
+[26.041961] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_server\n'}
+[26.049215] (topic_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_server" to ""\n'}
+[26.056866] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client\n'}
+[26.058123] (-) TimerEvent: {}
+[26.058682] (topic_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/cwx/demo01_ws/install/topic_cpp/lib/topic_cpp/turtle_client" to ""\n'}
+[26.058946] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp\n'}
+[26.059335] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp\n'}
+[26.059486] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh\n'}
+[26.059583] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv\n'}
+[26.059677] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.sh\n'}
+[26.060044] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv\n'}
+[26.060345] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.bash\n'}
+[26.060473] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.sh\n'}
+[26.060566] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh\n'}
+[26.060652] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv\n'}
+[26.061147] (topic_cpp) StdoutLine: {'line': b'-- Installing: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.dsv\n'}
+[26.061277] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp\n'}
+[26.061370] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake\n'}
+[26.061458] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake\n'}
+[26.061545] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/cwx/demo01_ws/install/topic_cpp/share/topic_cpp/package.xml\n'}
+[26.065840] (topic_cpp) CommandEnded: {'returncode': 0}
+[26.091770] (topic_cpp) JobEnded: {'identifier': 'topic_cpp', 'rc': 0}
+[26.094347] (-) EventReactorShutdown: {}

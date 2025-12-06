@@ -4,6 +4,7 @@
 /home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/topic_subscriber.dir
 /home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/turtle_server.dir
 /home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/turtle_client.dir
+/home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/turtle_chase.dir
 /home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/test.dir
 /home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/edit_cache.dir
 /home/cwx/demo01_ws/build/topic_cpp/CMakeFiles/rebuild_cache.dir
