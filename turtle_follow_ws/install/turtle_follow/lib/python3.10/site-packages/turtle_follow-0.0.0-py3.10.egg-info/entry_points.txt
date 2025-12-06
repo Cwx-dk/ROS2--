@@ -1,0 +1,3 @@
+[console_scripts]
+follower_controller = turtle_follow.follower_controller:main
+

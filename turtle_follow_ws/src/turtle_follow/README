@@ -1,0 +1,20 @@
+这是龟追龟的Python实现
+
+起动
+
+终端 1 : 启动龟追龟官方节点
+ros2 run turtlesim turtlesim_node
+
+终端 2 : 启动我们写的龟追龟跟随节点
+cd turtle_follow_ws
+colcon build --packages-select turtle_follow
+source install/setup.bash
+ros2 run turtle_follow follower_controller
+
+终端 3 : 启动龟追龟官方键盘输入节点
+ros2 run turtlesim  turtle_teleop_key
+
+
+
+
+
